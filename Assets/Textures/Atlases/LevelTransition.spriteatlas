@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LevelTransition
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b11eb04399d9b4d41a5d4aab36204a1d, type: 3}
+    - {fileID: 102900000, guid: 3224a47d7c50e274d9bea18f2e49aec9, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7303b3f0aed912a4f8b96b4823be2a7a, type: 3}
+  - {fileID: 21300000, guid: 33f2e102d0069ad4bbf11f9d6d2b8859, type: 3}
+  - {fileID: 21300000, guid: 5dafeb33ff32a164287710427b092b09, type: 3}
+  - {fileID: 21300000, guid: 0df7dd454efab424297b8e64b59e76cd, type: 3}
+  - {fileID: 21300000, guid: e20b85c50555d32448a8bc2e5312f824, type: 3}
+  - {fileID: 21300000, guid: 469f6bc505e728c48b8026642a22ce77, type: 3}
+  - {fileID: 21300000, guid: e8206a56591a69a4ba493e2475ebd1ff, type: 3}
+  - {fileID: 21300000, guid: 46306fd6409faf3468f5982090b9a588, type: 3}
+  - {fileID: 21300000, guid: a32b7707870390e45ae5e2878aed4c20, type: 3}
+  - {fileID: 21300000, guid: 8a8a58384574ebc4581fb31df8d90f97, type: 3}
+  - {fileID: 21300000, guid: edcb29887a6e4744a84f0684e6269c6b, type: 3}
+  - {fileID: 21300000, guid: d40965a9329eeab4e9e6187abf4f61de, type: 3}
+  - {fileID: 21300000, guid: 6c8e50f9945bf7c4cad8997638d20042, type: 3}
+  - {fileID: 21300000, guid: 4309d8ba5a529cc41958d09194129496, type: 3}
+  - {fileID: 21300000, guid: 012ddcdafd188a54cbbae4835e340437, type: 3}
+  - {fileID: 21300000, guid: 76efc81bc93998340aaec05cc4273d0e, type: 3}
+  - {fileID: 21300000, guid: 83372a0ce711ee34a8b41bd00215799a, type: 3}
+  - {fileID: 21300000, guid: 87d4c91e764f243409519362f5729ce3, type: 3}
+  - {fileID: 21300000, guid: 8a3d7e3e4a5e28b46823025fff7f0da9, type: 3}
+  - {fileID: 21300000, guid: 8a841a9e670556e41ae6e4645925e5d4, type: 3}
+  - {fileID: 21300000, guid: 9f6e36ee89b2fb446a7529f38b99be26, type: 3}
+  - {fileID: 21300000, guid: a041944f645e4d042a063222358a22c3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 6
+  - 01
+  - 2
+  - 4
+  - 05
+  - 04
+  - 4
+  - 7
+  - 02
+  - 1
+  - 1
+  - 03
+  - 8
+  - 3
+  - 5
+  - 05
+  - 01
+  - 2
+  - 03
+  - 04
+  - 02
+  - 3
+  m_Tag: LevelTransition
+  m_IsVariant: 0

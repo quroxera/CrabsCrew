@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1931646ddd5a972448807ac6a8af559f
+  - enabled: 1
+    path: Assets/Scenes/HUD.unity
+    guid: 75c2e32aade59154ab71d0da99ac6553
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: a2b9d748697bd874281f5c9103bb663d
+  - enabled: 1
+    path: Assets/Scenes/LevelLoader.unity
+    guid: 8402bbcb7dec87d48889af45f140f024
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level 2 (Boss).unity
+    guid: eee7d6ac0b35764488a269ecb0f3e193
+  - enabled: 1
+    path: Assets/Scenes/Level 3 (Dark).unity
+    guid: 1200373e31c932d44ab0fa1b95222847
+  - enabled: 1
+    path: Assets/Scenes/Level 4 (Boss).unity
+    guid: 3cccd72abfde00a4d8e79744a882e527
+  - enabled: 1
+    path: Assets/Scenes/VictoryScreen.unity
+    guid: d784a69e8244eeb479ea672b4e7b3ed7
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 8e5f7665e09ac8543917e4ad2ef036d0,
+      type: 2}

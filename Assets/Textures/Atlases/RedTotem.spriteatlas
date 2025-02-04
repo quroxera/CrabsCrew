@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RedTotem
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ded9bff1263880748aa1e9e9339068de, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8fb953105b5501f4aae47eea1b478c25, type: 3}
+  - {fileID: 21300000, guid: 9bfcfa40029a2af42b531ce7d010bf9b, type: 3}
+  - {fileID: 21300000, guid: 974583c0d9c240f4c9a59b6e55b0b001, type: 3}
+  - {fileID: 21300000, guid: 08841d514750186458523910872b5444, type: 3}
+  - {fileID: 21300000, guid: 806833c12f13c414e80b451f4a0c996a, type: 3}
+  - {fileID: 21300000, guid: 945c9232f63511c4c8e4474362366459, type: 3}
+  - {fileID: 21300000, guid: 60f253320bb982b4799851406879e24e, type: 3}
+  - {fileID: 21300000, guid: b8e35362f49c0704c9013620b7011bb8, type: 3}
+  - {fileID: 21300000, guid: 7cb56d63de73d4746967374a9943ae9f, type: 3}
+  - {fileID: 21300000, guid: ed355c341f4d90d44a6665750df963e4, type: 3}
+  - {fileID: 21300000, guid: 0e8366b4a2ab32e4ea15c8e15d1aed5e, type: 3}
+  - {fileID: 21300000, guid: 77780126935100a4dbf16e72970b2681, type: 3}
+  - {fileID: 21300000, guid: 7ba020b719ee9c84486871eb01a43e21, type: 3}
+  - {fileID: 21300000, guid: 0fb5df08e69a3e049af5c854a638f7d9, type: 3}
+  - {fileID: 21300000, guid: 9506d549548dbe34fb07335402e28dc2, type: 3}
+  - {fileID: 21300000, guid: 84df0ab9324bb4d41b295a4358322766, type: 3}
+  - {fileID: 21300000, guid: eeaf39f965aa9de46a4f3560017abf48, type: 3}
+  - {fileID: 21300000, guid: 6693675a7f4fad7419e8095381d373cb, type: 3}
+  - {fileID: 21300000, guid: a58532da66a565948b5398a8a02f1c6d, type: 3}
+  - {fileID: 21300000, guid: f4fc7f6b3cbccaa488062b26ec6d87ce, type: 3}
+  - {fileID: 21300000, guid: c93bf3abaf718a1459409749acac819f, type: 3}
+  - {fileID: 21300000, guid: de8e8cacc520500469eb4becdd297587, type: 3}
+  - {fileID: 21300000, guid: 584bcfdc5cc9b8144bceafdfb187806e, type: 3}
+  - {fileID: 21300000, guid: fb93acec3c1a7954691ededf6316bf69, type: 3}
+  - {fileID: 21300000, guid: 4d2ca6fc3282055488fbdd9bc6cc6f4b, type: 3}
+  - {fileID: 21300000, guid: e523a18df5f254540bac3ebcdc770ee5, type: 3}
+  - {fileID: 21300000, guid: f7897e8f89737924b82bf52c1c480995, type: 3}
+  - {fileID: 21300000, guid: 13a301ffa2c75314282691201ebf4eb9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 3
+  - 2
+  - 4
+  - 4
+  - 1
+  - 3
+  - 1
+  - 1
+  - 4
+  - 2
+  - 5
+  - 2
+  - 1
+  - 4
+  - 6
+  - 2
+  - 1
+  - 1
+  - 6
+  - 3
+  - 3
+  - 3
+  - 2
+  - 5
+  - 4
+  - 1
+  - 5
+  - 6
+  m_Tag: RedTotem
+  m_IsVariant: 0

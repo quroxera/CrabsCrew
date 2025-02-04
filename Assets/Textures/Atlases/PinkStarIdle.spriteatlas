@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PinkStarIdle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 128
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5356246d7634c344aa03f880007d5217, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5b1b28d17919094489fab09c9837c0d6, type: 3}
+  - {fileID: 21300000, guid: 80fc0535a63c9e04aa011468497e9f36, type: 3}
+  - {fileID: 21300000, guid: 89d8f2d56640b1441b7db759f4d535a9, type: 3}
+  - {fileID: 21300000, guid: a4168e36eb99ea2449cc40a60c27e4ce, type: 3}
+  - {fileID: 21300000, guid: d202f53964dc0744aa2168ff56c54815, type: 3}
+  - {fileID: 21300000, guid: 7a273a2c9a4d9e447a1a5236f498fafd, type: 3}
+  - {fileID: 21300000, guid: dc18462de5756db4c8844b9bc73908dd, type: 3}
+  - {fileID: 21300000, guid: 429992bdaaae13242aedabe8ab3b52d6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Idle 05
+  - Idle 04
+  - Idle 08
+  - Idle 02
+  - Idle 06
+  - Idle 07
+  - Idle 01
+  - Idle 03
+  m_Tag: PinkStarIdle
+  m_IsVariant: 0

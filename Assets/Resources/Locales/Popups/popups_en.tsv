@@ -1,0 +1,6 @@
+gem	You've obtained a Green Gem.
+gem_notice	Maybe someone needs it.
+levelkey	You’ve obtained a LevelKey. 
+levelkey_notice	Now you can unlock the door.
+door	A LevelKey is required to unlock it.
+canister	You picked up a fuel canister! Use it to carry more fuel.

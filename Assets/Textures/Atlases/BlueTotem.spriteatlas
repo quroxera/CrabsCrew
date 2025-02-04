@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlueTotem
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 407b3fc402040fb48a570372297a2614, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 55da7b20c04f1e04f9624fa23a3dd66d, type: 3}
+  - {fileID: 21300000, guid: 3121e7a0c1dfd944199e434d264700c8, type: 3}
+  - {fileID: 21300000, guid: 384faf118e64fb948a07c6d4f2caa174, type: 3}
+  - {fileID: 21300000, guid: 4c22b9415c380bf449f549af411b8d88, type: 3}
+  - {fileID: 21300000, guid: dd8736c1ad51d8e4fa402cc33bc383a6, type: 3}
+  - {fileID: 21300000, guid: 8904a9343bbcf0b418fee3ebc9212a2c, type: 3}
+  - {fileID: 21300000, guid: 3d74d1e4dbba5da4eb5a56d253f60d7d, type: 3}
+  - {fileID: 21300000, guid: c4d5efc54b590af42b4959b6a1dc75fc, type: 3}
+  - {fileID: 21300000, guid: 70522cf5e4680c045add1d25cd79e501, type: 3}
+  - {fileID: 21300000, guid: 92974a468ad97cc43ac6a1c561f2ad07, type: 3}
+  - {fileID: 21300000, guid: 860b8876a04dfd448ae51a05bb96a15e, type: 3}
+  - {fileID: 21300000, guid: fa5eafb6f422f974fac023972901101f, type: 3}
+  - {fileID: 21300000, guid: 791ed588f432fcf489f231e1339edde9, type: 3}
+  - {fileID: 21300000, guid: 194b4298d6a88fa47a70c241cca47ac4, type: 3}
+  - {fileID: 21300000, guid: 5f8e70e8a5cc2db4d8dbf5e71e35266b, type: 3}
+  - {fileID: 21300000, guid: ad43dc291b64db54aa44f05a630ce086, type: 3}
+  - {fileID: 21300000, guid: 3cb88e29a30a9cb4ea5cfea0022cc444, type: 3}
+  - {fileID: 21300000, guid: abf4b0a9803296a429ffe0cccc416ab1, type: 3}
+  - {fileID: 21300000, guid: 9776e62ba052ed345b51e2d8d1783e87, type: 3}
+  - {fileID: 21300000, guid: 7233f95b92ab96749b01c955e120ade1, type: 3}
+  - {fileID: 21300000, guid: ec650b0cd43fadf468fa1d103e83d26c, type: 3}
+  - {fileID: 21300000, guid: 453a911cf8b74074a81c22ee5f41e67b, type: 3}
+  - {fileID: 21300000, guid: 64be7fccd82045545a0e65abb38df32f, type: 3}
+  - {fileID: 21300000, guid: 0c95242eac7242d459c45b80781ae409, type: 3}
+  - {fileID: 21300000, guid: 1647fb5e6481e3a47b4aea9c0deaf237, type: 3}
+  - {fileID: 21300000, guid: 8f9ee09ef071a2d4c825d95cbce96565, type: 3}
+  - {fileID: 21300000, guid: 4a61b54f3e82a9b40be7dab21a1de31e, type: 3}
+  - {fileID: 21300000, guid: 5406c96fc17d5d3499bdffd643626376, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 3
+  - 1
+  - 5
+  - 4
+  - 4
+  - 6
+  - 2
+  - 1
+  - 1
+  - 3
+  - 6
+  - 6
+  - 2
+  - 5
+  - 4
+  - 3
+  - 2
+  - 2
+  - 4
+  - 3
+  - 1
+  - 4
+  - 1
+  - 2
+  - 3
+  - 1
+  - 1
+  - 5
+  m_Tag: BlueTotem
+  m_IsVariant: 0

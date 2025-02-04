@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3a0fd1f1a0d974783dbe96c5afac11, type: 3}
+  m_Name: en
+  m_EditorClassIdentifier: 
+  _url: https://docs.google.com/spreadsheets/d/e/2PACX-1vT-afp8DgSh47QH8wnBJ2kLs8p6aSlfhxDudEd7mpg9C6MbByb4D3a4VSB95QiQ7Wjc3F6q_SVXUipZ/pub?gid=0&single=true&output=tsv
+  _localeItems:
+  - Key: menu_header
+    Value: "Menu\r"
+  - Key: inventory_header
+    Value: "Inventory\r"
+  - Key: settings_header
+    Value: "Options\r"
+  - Key: pause_header
+    Value: "Pause\r"
+  - Key: locales_header
+    Value: "Languages\r"
+  - Key: price_label
+    Value: "Price:\r"
+  - Key: button_start
+    Value: "start\r"
+  - Key: button_options
+    Value: "options\r"
+  - Key: button_exit
+    Value: "exit\r"
+  - Key: button_restart
+    Value: "restart\r"
+  - Key: button_pause
+    Value: "Pause\r"
+  - Key: button_back
+    Value: "back\r"
+  - Key: button_locales
+    Value: "languages\r"
+  - Key: button_buy
+    Value: "buy\r"
+  - Key: button_use
+    Value: "use\r"
+  - Key: button_upgrade
+    Value: "upgrade\r"
+  - Key: selected_language
+    Value: "Selected language is {0}\r"
+  - Key: settings_music
+    Value: "Music\r"
+  - Key: dialog_continue
+    Value: "Continue...\r"
+  - Key: info_doublejump
+    Value: "This is Double Jump!\r"
+  - Key: info_superthrow
+    Value: "This is Super Throw!\r"
+  - Key: info_magicshield
+    Value: "This is Magic Shield!\r"
+  - Key: info_dash
+    Value: "This is Dash!\r"
+  - Key: info_explosion
+    Value: "This is Explosion!\r"
+  - Key: victory_1
+    Value: "Congratulations!\r"
+  - Key: victory_2
+    Value: "You have completed the game!\r"
+  - Key: victory_3
+    Value: "Would you like to start NG+?\r"
+  - Key: loading
+    Value: "Loading...\r"
+  - Key: Health
+    Value: "Health\r"
+  - Key: Speed
+    Value: "Speed\r"
+  - Key: RangeDamage
+    Value: "Range Damage\r"
+  - Key: CritChance
+    Value: Crit Chance

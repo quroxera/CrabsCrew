@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clouds
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c9299ca9861ac014f9be69028f99442c, type: 3}
+    - {fileID: 2800000, guid: ba9a0e3d84c1bda47b9d2682c6651b76, type: 3}
+    - {fileID: 2800000, guid: 10a24c0171334fc4ab85b10f6e897bdd, type: 3}
+    - {fileID: 2800000, guid: 22e1659669722154591f4cada75ad95e, type: 3}
+    - {fileID: 2800000, guid: 2f5ec67d6a467c84aae2fd217d5ed16a, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 10a24c0171334fc4ab85b10f6e897bdd, type: 3}
+  - {fileID: 21300000, guid: 22e1659669722154591f4cada75ad95e, type: 3}
+  - {fileID: -6835599021437128910, guid: c9299ca9861ac014f9be69028f99442c, type: 3}
+  - {fileID: 6251070240227281547, guid: c9299ca9861ac014f9be69028f99442c, type: 3}
+  - {fileID: 21300000, guid: ba9a0e3d84c1bda47b9d2682c6651b76, type: 3}
+  - {fileID: 21300000, guid: 2f5ec67d6a467c84aae2fd217d5ed16a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Cloud2
+  - Cloud3
+  - BG Image_0
+  - BG Image_1
+  - Cloud1
+  - CloudBig
+  m_Tag: Clouds
+  m_IsVariant: 0

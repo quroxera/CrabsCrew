@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3a0fd1f1a0d974783dbe96c5afac11, type: 3}
+  m_Name: ru
+  m_EditorClassIdentifier: 
+  _url: https://docs.google.com/spreadsheets/d/e/2PACX-1vT-afp8DgSh47QH8wnBJ2kLs8p6aSlfhxDudEd7mpg9C6MbByb4D3a4VSB95QiQ7Wjc3F6q_SVXUipZ/pub?gid=157418584&single=true&output=tsv
+  _localeItems:
+  - Key: menu_header
+    Value: "\u041C\u0435\u043D\u044E\r"
+  - Key: inventory_header
+    Value: "\u0418\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u044C\r"
+  - Key: settings_header
+    Value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\r"
+  - Key: pause_header
+    Value: "\u041F\u0430\u0443\u0437\u0430\r"
+  - Key: locales_header
+    Value: "\u042F\u0437\u044B\u043A\r"
+  - Key: price_label
+    Value: "\u0426\u0435\u043D\u0430:\r"
+  - Key: button_start
+    Value: "\u043D\u0430\u0447\u0430\u0442\u044C\r"
+  - Key: button_options
+    Value: "\u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438\r"
+  - Key: button_exit
+    Value: "\u0432\u044B\u0445\u043E\u0434\r"
+  - Key: button_restart
+    Value: "\u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u043A\r"
+  - Key: button_pause
+    Value: "\u041F\u0430\u0443\u0437\u0430\r"
+  - Key: button_back
+    Value: "\u043D\u0430\u0437\u0430\u0434\r"
+  - Key: button_locales
+    Value: "\u044F\u0437\u044B\u043A\r"
+  - Key: button_buy
+    Value: "\u043A\u0443\u043F\u0438\u0442\u044C\r"
+  - Key: button_use
+    Value: "\u0432\u044B\u0431\u0440\u0430\u0442\u044C\r"
+  - Key: button_upgrade
+    Value: "\u0443\u043B\u0443\u0447\u0448\u0438\u0442\u044C\r"
+  - Key: selected_language
+    Value: "\u0412\u044B\u0431\u0440\u0430\u043D \u044F\u0437\u044B\u043A {0}\r"
+  - Key: settings_music
+    Value: "\u041C\u0443\u0437\u044B\u043A\u0430\r"
+  - Key: dialog_continue
+    Value: "\u0414\u0430\u043B\u0435\u0435...\r"
+  - Key: info_doublejump
+    Value: "\u042D\u0442\u043E \u0414\u0432\u043E\u0439\u043D\u043E\u0439 \u041F\u0440\u044B\u0436\u043E\u043A!\r"
+  - Key: info_superthrow
+    Value: "\u042D\u0442\u043E \u0421\u0443\u043F\u0435\u0440 \u0411\u0440\u043E\u0441\u043E\u043A!\r"
+  - Key: info_magicshield
+    Value: "\u042D\u0442\u043E \u041C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u0429\u0438\u0442!\r"
+  - Key: info_dash
+    Value: "\u042D\u0442\u043E \u0420\u044B\u0432\u043E\u043A!\r"
+  - Key: info_explosion
+    Value: "\u042D\u0442\u043E \u0412\u0437\u0440\u044B\u0432!\r"
+  - Key: victory_1
+    Value: "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u0435\u043C!\r"
+  - Key: victory_2
+    Value: "\u0412\u044B \u043F\u0440\u043E\u0448\u043B\u0438 \u0438\u0433\u0440\u0443!\r"
+  - Key: victory_3
+    Value: "\u0425\u043E\u0442\u0438\u0442\u0435 \u043D\u0430\u0447\u0430\u0442\u044C
+      \u041D\u0413+?\r"
+  - Key: loading
+    Value: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430...\r"
+  - Key: Health
+    Value: "\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435\r"
+  - Key: Speed
+    Value: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C\r"
+  - Key: RangeDamage
+    Value: "\u0423\u0440\u043E\u043D (\u0434\u0430\u043B\u044C\u043D\u0438\u0439)\r"
+  - Key: CritChance
+    Value: "\u0428\u0430\u043D\u0441 \u043A\u0440\u0438\u0442\u0430"

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89651baa61680ee458a8f987f9ffb4fe, type: 3}
+  m_Name: Froggy_Die
+  m_EditorClassIdentifier: 
+  _dialogKey: Froggy_Die
+  _data:
+    _npcName: FROGGY
+    _npcPortrait: {fileID: 21300000, guid: 73ee96fdeb4a01c4f86d3e6652f16929, type: 3}
+    _sentences:
+    - Sentence: KVAAAAAAAA!!!
+      IsHeroSpeaking: 0
+    - Sentence: I told ya!
+      IsHeroSpeaking: 1
