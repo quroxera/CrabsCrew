@@ -13696,12 +13696,12 @@ PrefabInstance:
     - target: {fileID: 1150522329036070889, guid: 12b3043d3483a574dbcb9731859ee355,
         type: 3}
       propertyPath: _data._inventory._inventory.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1150522329036070889, guid: 12b3043d3483a574dbcb9731859ee355,
         type: 3}
       propertyPath: _data._inventory._inventory.Array.data[0].Id
-      value: GreenGem
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1150522329036070889, guid: 12b3043d3483a574dbcb9731859ee355,
         type: 3}
@@ -13716,7 +13716,7 @@ PrefabInstance:
     - target: {fileID: 1150522329036070889, guid: 12b3043d3483a574dbcb9731859ee355,
         type: 3}
       propertyPath: _data._inventory._inventory.Array.data[0].Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1150522329036070889, guid: 12b3043d3483a574dbcb9731859ee355,
         type: 3}
