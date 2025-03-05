@@ -57,14 +57,14 @@ namespace Scripts.Creatures.Player.Items
         private void UseFuel()
         {
             var newCapacity = _session.Data.Fuel.Capacity += 10;
-            _session.Data.Inventory.Remove(_inventoryService.SelectedItemId, 1);
+            _session.Data.Inventory.Remove(_inventoryService.SelectedItemId(), 1);
             _session.Data.Fuel.InvokeChangedEvent(_session.Data.Fuel.Value, newCapacity);
             _fuel.SetFuel(newCapacity);
         }
 
         private void UsePotion()
         {
-            var potion = DefsFacade.I.Potions.Get(_inventoryService.SelectedItemId);
+            var potion = DefsFacade.I.Potions.Get(_inventoryService.SelectedItemId());
 
             switch (potion.Effect)
             {
@@ -85,7 +85,7 @@ namespace Scripts.Creatures.Player.Items
             healthChangeComponent.HealthChangeValue = (int) potionsDef.Value;
             healthChangeComponent.ApplyHealthChange(GetComponentInParent<Player>().gameObject);
 
-            _session.Data.Inventory.Remove(_inventoryService.SelectedItemId, 1);
+            _session.Data.Inventory.Remove(_inventoryService.SelectedItemId(), 1);
         }
         
         private void SpeedUp(PotionDef potion)
@@ -96,12 +96,12 @@ namespace Scripts.Creatures.Player.Items
             _additionalSpeed = Mathf.Max(potion.Value, _additionalSpeed);
             _speedUpCooldown.Reset();
 
-            _session.Data.Inventory.Remove(_inventoryService.SelectedItemId, 1);
+            _session.Data.Inventory.Remove(_inventoryService.SelectedItemId(), 1);
         }
         
         private void Throw()
         {
-            if (IsSelectedItem(ItemTag.Potion) || _inventoryService.SelectedItemId == _inventoryService.SwordId 
+            if (IsSelectedItem(ItemTag.Potion) || _inventoryService.SelectedItemId() == _inventoryService.SwordId 
                 && _inventoryService.SelectedItemCount <= 1)
                 return;
 
@@ -110,7 +110,7 @@ namespace Scripts.Creatures.Player.Items
 
             _player.Sounds.Play("Range");
 
-            var throwableId = _inventoryService.SelectedItemId;
+            var throwableId = _inventoryService.SelectedItemId();
             var throwableDef = DefsFacade.I.Throwable.Get(throwableId);
 
             var baseDamage = (int)_session.StatsModel.GetValue(StatId.RangeDamage);

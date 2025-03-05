@@ -30,7 +30,7 @@ MonoBehaviour:
       _count: 5
     _cooldown:
       _value: 2
-    _hotKey: {fileID: 21300000, guid: b3730f9ff89d8af40a17789fd954f359, type: 3}
+    _hotKey: {fileID: 21300000, guid: 0d9e2fe33664dcb4786f1ff9b35e84e8, type: 3}
   - _id: magic-shield
     _icon: {fileID: 21300000, guid: 2c1f0f0e4240cbe41be41083620f1a68, type: 3}
     _info: info_magicshield
@@ -39,7 +39,7 @@ MonoBehaviour:
       _count: 10
     _cooldown:
       _value: 5
-    _hotKey: {fileID: 21300000, guid: b3730f9ff89d8af40a17789fd954f359, type: 3}
+    _hotKey: {fileID: 21300000, guid: 0d9e2fe33664dcb4786f1ff9b35e84e8, type: 3}
   - _id: dash
     _icon: {fileID: 21300000, guid: 56acc4a5266b32d4f8bee7659df1e10c, type: 3}
     _info: info_dash
@@ -57,4 +57,4 @@ MonoBehaviour:
       _count: 5
     _cooldown:
       _value: 5
-    _hotKey: {fileID: 21300000, guid: b3730f9ff89d8af40a17789fd954f359, type: 3}
+    _hotKey: {fileID: 21300000, guid: 0d9e2fe33664dcb4786f1ff9b35e84e8, type: 3}

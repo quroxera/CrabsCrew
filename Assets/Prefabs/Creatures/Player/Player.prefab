@@ -5630,6 +5630,10 @@ MonoBehaviour:
   Particles: {fileID: 1172906572}
   _attackRange: {fileID: 492831211}
   _groundCheck: {fileID: 2338944382538132749}
+  Rigidbody: {fileID: 0}
+  Direction: {x: 0, y: 0}
+  Animator: {fileID: 0}
+  Sounds: {fileID: 0}
   _fallVelocity: 20
   _damageVelocity: 60
   _wallCheck: {fileID: 1121022}
@@ -5758,33 +5762,7 @@ MonoBehaviour:
     m_ActionId: b208dba7-30f3-4519-a77f-35ef0a0fdd09
     m_ActionName: Player/Cast[/Keyboard/r]
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2338944382802322584}
-        m_MethodName: OnDash
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 3162b11b-efcb-4f53-8255-6bd5773bf841
-    m_ActionName: Player/Dash[/Keyboard/shift]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: 5bd3deaf-6123-4ec8-af71-306b496ab563
     m_ActionName: UI/New action
   - m_PersistentCalls:
@@ -5812,7 +5790,7 @@ MonoBehaviour:
     m_ActionName: Gameplay/SwitchFlashlight[/Keyboard/1]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Gameplay
+  m_DefaultActionMap: d3a2809d-e512-4655-bb2b-c0d00ee17319
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!50 &2338944382802322583

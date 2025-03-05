@@ -12,14 +12,18 @@ namespace Scripts.Creatures.Player
         }
 
         private int GetItemCount(string itemId) => _session.Data.Inventory.Count(itemId);
-        
+
         public readonly string SwordId = "Sword";
         public int CoinsCount => GetItemCount("Coin");
 
         public int SwordsCount => GetItemCount("Sword");
 
-        public string SelectedItemId => _session.QuickInventory.SelectedItem.Id;
+        public string SelectedItemId()
+        {
+            return _session.QuickInventory.SelectedItem == null
+                ? string.Empty : _session.QuickInventory.SelectedItem.Id;
+        }
 
-        public int SelectedItemCount => GetItemCount(SelectedItemId);
+        public int SelectedItemCount => GetItemCount(SelectedItemId());
     }
 }

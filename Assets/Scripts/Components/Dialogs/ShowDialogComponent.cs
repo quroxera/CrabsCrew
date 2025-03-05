@@ -1,4 +1,5 @@
-﻿using Scripts.Model.Definitions.ItemsDef;
+﻿using System;
+using Scripts.Model.Definitions.ItemsDef;
 using Scripts.UI.HUD.Dialogs;
 using Scripts.UI.Localization;
 using UnityEngine;

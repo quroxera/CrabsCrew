@@ -63,15 +63,15 @@ namespace Scripts.Creatures.Player
             _session.StatsModel.OnUpgraded += OnPlayerUpgraded;
 
             Health.SetHealth(_session.Data.Hp.Value);
-            
+
             UpdatePlayerWeapon();
         }
-        
+
         private void OnPlayerUpgraded(StatId statId)
         {
-            if (statId != StatId.Hp) 
+            if (statId != StatId.Hp)
                 return;
-            
+
             var health = (int)_session.StatsModel.GetValue(statId);
             _session.Data.Hp.Value = health;
             Health.SetHealth(health);
@@ -165,9 +165,10 @@ namespace Scripts.Creatures.Player
 
         protected override float CalculateJumpVelocity(float yVelocity)
         {
-            if (IsGrounded || !_session.PerksModel.IsDoubleJumpSupported || !(_perksController.GetCurrentPerk() is DoubleJump doubleJump))
+            if (IsGrounded || !_session.PerksModel.IsDoubleJumpSupported ||
+                !(_perksController.GetCurrentPerk() is DoubleJump doubleJump) || !doubleJump.AllowDoubleJump)
                 return base.CalculateJumpVelocity(yVelocity);
-
+            
             doubleJump.UsePerk(gameObject);
             return JumpSpeed;
         }
@@ -261,7 +262,7 @@ namespace Scripts.Creatures.Player
         {
             _flashlight.Switch();
         }
-        
+
         public void UseSkill()
         {
             _perksController.GetCurrentPerk()?.UsePerk(gameObject);

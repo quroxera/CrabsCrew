@@ -38,14 +38,6 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Dash",
-                    "type": "Button",
-                    "id": "3162b11b-efcb-4f53-8255-6bd5773bf841",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
                     "name": "UseItem",
                     "type": "Button",
                     "id": "87eb0af1-4957-489d-b15e-e7d9b97222d5",
@@ -294,7 +286,7 @@
                 {
                     "name": "",
                     "id": "d8cd101a-90ad-4769-b98b-07904344c8b1",
-                    "path": "<Keyboard>/r",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -310,28 +302,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Cast",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "8894f468-5bb2-498f-be22-ad0e3a8fa3dd",
-                    "path": "<Keyboard>/leftShift",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Dash",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "28e06dcb-0296-466d-a468-c661bbeb6286",
-                    "path": "<Gamepad>/dpad/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

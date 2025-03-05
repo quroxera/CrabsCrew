@@ -8,7 +8,7 @@ namespace Scripts.Creatures.Player.Perks
     {
         private Cooldown _cooldown;
         public string Id { get; } = "double-jump";
-        private bool _allowDoubleJump;
+        public bool AllowDoubleJump { get; private set; }
 
         public void InitializeCooldown()
         {
@@ -18,15 +18,15 @@ namespace Scripts.Creatures.Player.Perks
         public void UsePerk(GameObject go)
         {
             var player = go.GetComponent<Player>();
-            if (!_cooldown.IsReady || !_allowDoubleJump)
+            if (!_cooldown.IsReady || !AllowDoubleJump)
                 return;
             
             _cooldown.Reset();
-            _allowDoubleJump = false;
+            AllowDoubleJump = false;
             
             player.DoJumpVfx();
         }
 
-        public void ResetDoubleJump() => _allowDoubleJump = true;
+        public void ResetDoubleJump() => AllowDoubleJump = true;
     }
 }

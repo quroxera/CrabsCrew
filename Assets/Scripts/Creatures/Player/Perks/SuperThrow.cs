@@ -28,11 +28,11 @@ namespace Scripts.Creatures.Player.Perks
             var player = go.GetComponent<Player>();
             var inventoryService = player.InventoryService;
             if (_session.QuickInventory.SelectedDef.HasTag(ItemTag.Potion) 
-                || inventoryService.SelectedItemId == inventoryService.SwordId 
+                || inventoryService.SelectedItemId() == inventoryService.SwordId 
                 && inventoryService.SelectedItemCount <= 1)
                 return;
             
-            var possibleCount = inventoryService.SelectedItemId == inventoryService.SwordId 
+            var possibleCount = inventoryService.SelectedItemId() == inventoryService.SwordId 
                 ? inventoryService.SelectedItemCount - 1 
                 : inventoryService.SelectedItemCount;
 
@@ -47,7 +47,7 @@ namespace Scripts.Creatures.Player.Perks
 
             for (var i = 0; i < throwsCount; i++)
             {
-                if (_session.Data.Inventory.Count(inventoryService.SelectedItemId) > 0)
+                if (_session.Data.Inventory.Count(inventoryService.SelectedItemId()) > 0)
                 {
                     player.Sounds.Play("Range");
 

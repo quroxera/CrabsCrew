@@ -27,7 +27,7 @@ namespace Scripts.Creatures.Player.Perks
             var player = go.GetComponent<Player>();
             if (!_cooldown.IsReady || IsDashing)
                 return;
-
+            
             StartCoroutine(DoDash(player.Direction, player.CalculateXVelocity(), player.Particles, player.Rigidbody));
         }
 
