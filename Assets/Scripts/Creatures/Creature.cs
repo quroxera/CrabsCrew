@@ -94,7 +94,7 @@ namespace Scripts.Creatures
             return yVelocity;
         }
         
-        internal virtual float CalculateXVelocity()
+        public virtual float CalculateXVelocity()
         {
             return Direction.x * CalculateSpeed();
         }
@@ -104,7 +104,7 @@ namespace Scripts.Creatures
             return _speed;
         }
 
-        internal void DoJumpVfx()
+        public void DoJumpVfx()
         {
             Particles.Spawn("Jump");
             Sounds.Play("Jump");

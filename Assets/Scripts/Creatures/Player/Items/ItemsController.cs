@@ -18,16 +18,14 @@ namespace Scripts.Creatures.Player.Items
         private FuelComponent _fuel;
         private GameSession _session;
         private Player _player;
-
         private float _additionalSpeed;
         public float AdditionalSpeed => _speedUpCooldown.IsReady ? 0f : _additionalSpeed;
-
-
+        
         private void Start()
         {
             _player = GetComponentInParent<Player>();
             _session = FindObjectOfType<GameSession>();
-            _fuel = GetComponent<FuelComponent>();
+            _fuel = GetComponentInParent<FuelComponent>();
             _inventoryService = _player.InventoryService;
         }
         
@@ -84,7 +82,8 @@ namespace Scripts.Creatures.Player.Items
             var usableId = _session.QuickInventory.SelectedItem.Id;
             var potionsDef = DefsFacade.I.Potions.Get(usableId);
             var healthChangeComponent = potionsDef.Potion.GetComponent<HealthChangeComponent>();
-            healthChangeComponent.ApplyHealthChange(gameObject);
+            healthChangeComponent.HealthChangeValue = (int) potionsDef.Value;
+            healthChangeComponent.ApplyHealthChange(GetComponentInParent<Player>().gameObject);
 
             _session.Data.Inventory.Remove(_inventoryService.SelectedItemId, 1);
         }

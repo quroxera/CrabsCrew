@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Scripts.Components.ColliderBased;
 using Scripts.Components.Fuel;
 using Scripts.Components.GoBased;
@@ -11,6 +12,7 @@ using Scripts.Model.Data;
 using Scripts.Model.Definitions.Player;
 using Scripts.Utils;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Scripts.Creatures.Player
 {
@@ -34,11 +36,10 @@ namespace Scripts.Creatures.Player
 
         private bool _isOnWall;
         private float _defaultGravityScale;
-        public HealthComponent Health;
         private CameraShakeEffect _cameraShake;
-
+        [NonSerialized] public HealthComponent Health;
         private ItemsController _itemsController;
-        private PerksController _perks;
+        private PerksController _perksController;
         private GameSession _session;
 
         public InventoryService InventoryService { get; private set; }
@@ -55,7 +56,7 @@ namespace Scripts.Creatures.Player
             _cameraShake = FindObjectOfType<CameraShakeEffect>();
             _session = FindObjectOfType<GameSession>();
             Health = GetComponent<HealthComponent>();
-            _perks = GetComponentInChildren<PerksController>();
+            _perksController = GetComponentInChildren<PerksController>();
             _itemsController = GetComponentInChildren<ItemsController>();
             InventoryService = new InventoryService(_session);
             _session.Data.Inventory.OnChanged += OnInventoryChanged;
@@ -76,7 +77,7 @@ namespace Scripts.Creatures.Player
             Health.SetHealth(health);
         }
 
-        internal int CalculateDamageWithCrit(int damage)
+        public int CalculateDamageWithCrit(int damage)
         {
             const int critModifier = 2;
             var critChance = _session.StatsModel.GetValue(StatId.CritChance);
@@ -128,11 +129,11 @@ namespace Scripts.Creatures.Player
             Animator.SetBool(PlayerAnimatorKeys.IsOnWallKey, _isOnWall);
         }
 
-        internal override float CalculateXVelocity()
+        public override float CalculateXVelocity()
         {
             Dash dash = null;
-            if (_perks.GetCurrentPerk() is Dash)
-                dash = (Dash)_perks.GetCurrentPerk();
+            if (_perksController.GetCurrentPerk() is Dash)
+                dash = (Dash)_perksController.GetCurrentPerk();
 
             if (!dash || !dash.IsDashing)
                 return base.CalculateXVelocity();
@@ -146,7 +147,7 @@ namespace Scripts.Creatures.Player
 
         protected override float CalculateYVelocity()
         {
-            switch (_perks.GetCurrentPerk())
+            switch (_perksController.GetCurrentPerk())
             {
                 case Dash dash when dash.IsDashing:
                     return Direction.normalized.y;
@@ -164,7 +165,7 @@ namespace Scripts.Creatures.Player
 
         protected override float CalculateJumpVelocity(float yVelocity)
         {
-            if (IsGrounded || !_session.PerksModel.IsDoubleJumpSupported || !(_perks.GetCurrentPerk() is DoubleJump doubleJump))
+            if (IsGrounded || !_session.PerksModel.IsDoubleJumpSupported || !(_perksController.GetCurrentPerk() is DoubleJump doubleJump))
                 return base.CalculateJumpVelocity(yVelocity);
 
             doubleJump.UsePerk(gameObject);
@@ -263,7 +264,7 @@ namespace Scripts.Creatures.Player
         
         public void UseSkill()
         {
-            _perks.GetCurrentPerk()?.UsePerk(gameObject);
+            _perksController.GetCurrentPerk()?.UsePerk(gameObject);
         }
 
         private void OnDestroy()
